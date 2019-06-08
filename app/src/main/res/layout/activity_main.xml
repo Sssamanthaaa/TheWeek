@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="MONDAY"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:onClick="openMondayActivity"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="TUESDAY"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:onClick="openTuesdayActivity"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="WEDNESDAY"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:onClick="openWednesdayActivity"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="THURSDAY"
+        android:textSize="50sp"
+        android:onClick="openThursdayActivity"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="FRIDAY"
+        android:textSize="50sp"
+        android:onClick="openFridayActivity"/>
+</LinearLayout>
